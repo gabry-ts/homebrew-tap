@@ -10,3 +10,5 @@ brew install --cask gabry-ts/tap/mittari
 ```
 
 The apps update themselves once installed, so `brew upgrade` is only needed if you prefer it.
+
+An hourly workflow bumps each cask to its app's latest GitHub release automatically.
