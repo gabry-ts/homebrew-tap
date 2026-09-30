@@ -1,6 +1,6 @@
 cask "mittari" do
-  version "1.1.0"
-  sha256 "b92d28f957aa59c4441c2881309aac15906ae701e9e3890a6ab03e00cea892f4"
+  version "1.2.0"
+  sha256 "11808df0c0905c69e11c048e8f6744282c04f20f089ded530afb30608eea2e2b"
 
   url "https://github.com/gabry-ts/mittari/releases/download/v#{version}/Mittari-#{version}.dmg"
   name "Mittari"
