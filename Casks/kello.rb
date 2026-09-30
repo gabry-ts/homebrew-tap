@@ -1,6 +1,6 @@
 cask "kello" do
-  version "1.0.0"
-  sha256 "bdade6c651ba99b12418e01ef36adda8fa523adc49595bab046109e8e90a6e8b"
+  version "1.1.0"
+  sha256 "d9d4c2322586db86b313ee9505a930166ce77c8ec3ba087f1fd39990b3c5fb0c"
 
   url "https://github.com/gabry-ts/kello/releases/download/v#{version}/Kello-#{version}.dmg"
   name "Kello"

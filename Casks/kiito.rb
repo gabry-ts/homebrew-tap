@@ -1,6 +1,6 @@
 cask "kiito" do
-  version "1.0.0"
-  sha256 "6bb29e0ec60fe2c515319759094a5aa842a8c8b2d3d7bfef90d1a56522e756fa"
+  version "1.1.0"
+  sha256 "804475d57f8cf1cbda57ab04c54090f3ae44097d351ae2a25377a604b640ad32"
 
   url "https://github.com/gabry-ts/kiito/releases/download/v#{version}/Kiito-#{version}.dmg"
   name "Kiito"

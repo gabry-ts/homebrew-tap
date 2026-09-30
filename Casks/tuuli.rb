@@ -1,6 +1,6 @@
 cask "tuuli" do
-  version "1.0.0"
-  sha256 "38401bcd5762865a8993826a197672211ab8ad4f894e5759fd31648597598391"
+  version "1.1.0"
+  sha256 "8566e36d14f078d56053544c4f3e1084e3882210507d36d74592ee4fb8e2138a"
 
   url "https://github.com/gabry-ts/tuuli/releases/download/v#{version}/Tuuli-#{version}.dmg"
   name "Tuuli"
