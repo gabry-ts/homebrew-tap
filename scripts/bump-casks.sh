@@ -24,7 +24,11 @@ for cask in Casks/*.rb; do
 
   current_version=$(sed -n -E 's/^[[:space:]]*version "([^"]+)"/\1/p' "$cask" | head -n1)
 
-  latest_json=$(curl -fsSL "${api_headers[@]}" "https://api.github.com/repos/${repo}/releases/latest")
+  # A repo with no release yet is skipped instead of stopping every other cask.
+  if ! latest_json=$(curl -fsSL "${api_headers[@]}" "https://api.github.com/repos/${repo}/releases/latest"); then
+    echo "skip $name: no release found for ${repo}"
+    continue
+  fi
   latest_tag=$(echo "$latest_json" | jq -r '.tag_name')
   latest_version=${latest_tag#v}
 
