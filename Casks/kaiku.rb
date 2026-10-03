@@ -1,6 +1,6 @@
 cask "kaiku" do
-  version "1.5.0"
-  sha256 "128a4136b1b306127ddcc33d78e84108c9435830dd8c006a57215b0c327f2533"
+  version "1.6.0"
+  sha256 "c3de2a0bfc5e16da95b23a086b851430dc691d7754e62b1ebe76bb5d2bb58599"
 
   url "https://github.com/gabry-ts/kaiku/releases/download/v#{version}/Kaiku-#{version}.dmg"
   name "Kaiku"
